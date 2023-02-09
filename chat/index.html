@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- ioicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Chat</title>
+</head>
+<body>
+    <div id="app">
+        
+        <div id="user">
+
+            <div id="user-info">
+                <div class="img-user">
+                    <img src="https://github.com/cecidoliveira.png" alt="avatar">
+                </div>
+                
+                <div id="content-info">
+                    <h3>Ceci Dornelas</h3>
+                    <div id="status">
+                        <p>online</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="close">
+                <ion-icon name="close-outline"></ion-icon>
+            </div>
+        </div>
+
+
+        <div id="message-chat">
+
+            <div class="content-chat">
+                <div class="time">
+                    <p>hoje 05:00</p>
+                </div>
+
+                <div class="message-user">
+                    <p>E não adianta nem me procurar</p>
+                </div>
+
+                <div class="message-you">
+                    <p>Em outros timbres outros risos</p>
+                </div>
+                <div class="float"></div>
+            </div>
+
+
+            <div class="content-chat">
+                <div class="time">
+                    <p>hoje 05:40</p>
+                </div>
+
+                <div class="message-user">
+                    <p>Eu estava aqui o tempo todo. <br/> So Você não viu.</p>
+                </div>
+
+                <div class="message-you">
+                    <p>. . .</p>
+                </div>
+                <div class="float"></div>
+            </div>
+
+        </div>
+
+
+        <form>
+            <div id="send-message">
+                <input type="text" placeholder="digite aqui sua mensagem ...">
+                <button><ion-icon name="send"></ion-icon></button>
+            </div>
+        </form>
+        
+    </div>
+</body>
+</html>
